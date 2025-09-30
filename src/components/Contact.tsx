@@ -66,7 +66,7 @@ const Contact = () => {
             <Button variant="cta" size="xl" asChild>
               <a href={`tel:${phoneNumber.replace(/\s/g, '')}`} className="flex items-center gap-2">
                 <Phone className="h-5 w-5" />
-                Appel d&apos;urgence: {phoneNumber}
+                Appel: {phoneNumber}
               </a>
             </Button>
           </div>
