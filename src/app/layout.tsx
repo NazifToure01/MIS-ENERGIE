@@ -37,20 +37,20 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://mis-energie-34.fr'),
+  metadataBase: new URL('https://www.msienergie34.fr'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://mis-energie-34.fr',
+    url: 'https://www.msienergie34.fr',
     title: 'MIS ENERGIE 34 - Plombier, Chauffagiste, Climatisation Montpellier',
     description: 'Plombier professionnel à Montpellier et dans l\'Hérault. Installation, réparation, dépannage 24h/24. Chauffage, climatisation, plomberie. Devis gratuit.',
     siteName: 'MIS ENERGIE 34',
     images: [
       {
-        url: '/logo.png',
+        url: '/logo2.png',
         width: 1200,
         height: 630,
         alt: 'MIS ENERGIE 34 - Logo',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'MIS ENERGIE 34 - Plombier, Chauffagiste, Climatisation Montpellier',
     description: 'Plombier professionnel à Montpellier et dans l\'Hérault. Installation, réparation, dépannage 24h/24. Chauffage, climatisation, plomberie. Devis gratuit.',
-    images: ['/logo.png'],
+    images: ['/logo2.png'],
   },
   robots: {
     index: true,
@@ -73,9 +73,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  verification: {
-    google: 'your-google-verification-code',
   },
 };
 
