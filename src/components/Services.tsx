@@ -15,21 +15,21 @@ const services = [
     title: "Chauffage",
     description: "Installation et entretien de chaudières, radiateurs et systèmes de chauffage. Chauffagiste certifié.",
     keywords: "chauffagiste, chaudière, radiateur, entretien",
-    image: "/image3.jpg",
+    image: "/chauffage.webp",
   },
   {
     icon: Wind,
     title: "Climatisation",
     description: "Installation et maintenance de climatiseurs et pompes à chaleur. Confort toute l'année.",
     keywords: "climatisation, pompe à chaleur, installation clim",
-    image: "/image4.jpg",
+    image: "/climatisation.png",
   },
   {
     icon: Wrench,
     title: "Débouchage",
     description: "Débouchage de canalisations, WC, éviers et douches. Intervention rapide avec matériel professionnel.",
     keywords: "débouchage, canalisation, déboucher WC",
-    image: "/image5.jpg",
+    image: "/debouchage.webp",
   },
 ];
 

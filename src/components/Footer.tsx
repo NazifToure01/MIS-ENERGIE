@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <Image src={"/logorb.png"} alt="MIS ENERGIE 34" width={200} height={80} className="h-20 w-auto mb-4" />
+            <Image src={"/logo2.png"} alt="MIS ENERGIE 34" width={200} height={80} className="h-20 w-auto mb-4" />
             <p className="text-sm text-muted-foreground">
               Votre expert en plomberie, chauffage et climatisation à Montpellier et dans tout l&apos;Hérault
             </p>

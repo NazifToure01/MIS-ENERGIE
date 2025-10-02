@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import ServiceAreas from "@/components/ServiceAreas";
+import Partners from "@/components/Partners";
 import QuoteForm from "@/components/QuoteForm";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -97,6 +98,7 @@ export default function Home() {
         <Hero />
         <Services />
         <ServiceAreas />
+        <Partners />
         <QuoteForm />
         <Contact />
         <Footer />

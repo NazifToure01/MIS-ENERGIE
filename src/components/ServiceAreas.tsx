@@ -16,6 +16,8 @@ const areas = [
   "Valras-Plage",
   "Vias Plage",
   "Marseillan Plage",
+  "Pignan",
+  "Gange"
 ];
 
 const ServiceAreas = () => {

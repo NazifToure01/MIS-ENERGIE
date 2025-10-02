@@ -63,11 +63,11 @@ const Navigation = () => {
             
             <Link href="/" className="flex items-center">
               <Image
-                src="/logorb.png"
+                src="/logo2.png"
                 alt="MIS ENERGIE 34"
-                width={200}
-                height={56}
-                className="h-14 w-auto transition-all duration-300"
+                width={120}
+                height={32}
+                className="h-8 w-auto rounded-xl transition-all duration-300"
               />
             </Link>
           </div>

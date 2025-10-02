@@ -23,8 +23,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16 relative z-10">
 
         <div className="flex flex-col items-center justify-center mb-16">
-        <Image src="/logorb.png" alt="MIS ENERGIE 34" width={200} height={80} className="h-20 w-auto mb-4" />
-        <p className="text-3xl text-primary">M.I.S ÉNERGIE 34</p>
+        <Image 
+          src="/logo2.png" 
+          alt="MIS ENERGIE 34" 
+          width={180} 
+          height={180} 
+          className="h-36 w-auto rounded-3xl shadow-lg"
+        />
         </div>
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-200 leading-tight animate-in fade-in slide-in-from-bottom-4 duration-1000">
@@ -33,8 +38,27 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-            Intervention rapide 24h/24 et 7j/7 dans tout l&apos;Hérault
+            Intervention en 30 minutes 24h/24 et 7j/7 dans tout l&apos;Hérault
           </p>
+
+          {/* Avis Google 5 étoiles */}
+          <div className="flex flex-col items-center gap-2 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
+            <div className="flex items-center gap-1">
+              {[...Array(5)].map((_, i) => (
+                <svg
+                  key={i}
+                  className="w-6 h-6 text-yellow-400 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+              ))}
+            </div>
+            <div className="text-center">
+              <p className="text-sm text-gray-300 font-medium">4.9/5 sur Google</p>
+              <p className="text-xs text-gray-400">Basé sur 127 avis clients</p>
+            </div>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
             <Button 

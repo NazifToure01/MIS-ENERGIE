@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const phoneNumber = "+33 7 84 65 94 09"; // Replace with actual number
-  const email = "contact@misenergie34.fr"; // Replace with actual email
+  const email = "misénergie34@gmx.fr"; // Replace with actual email
 
   return (
     <section id="contact" className="py-20 bg-muted/30">
