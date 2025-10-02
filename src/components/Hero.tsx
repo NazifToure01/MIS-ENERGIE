@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-            Intervention rapide 24h/24 et 7j/7 dans tout l&apos;Hérault
+            Intervention en 30 minutes 24h/24 et 7j/7 dans tout l&apos;Hérault
           </p>
           <div className="flex flex-col items-center gap-2 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
             <div className="flex items-center gap-1">
