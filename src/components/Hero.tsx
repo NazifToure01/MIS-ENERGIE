@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       <div className="absolute inset-0">
         <Image
-          src="/climatisation.png"
+          src="/image1.jpg"
           alt="Plombier professionnel"
           fill
           className="object-cover brightness-90"

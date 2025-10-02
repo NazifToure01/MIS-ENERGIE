@@ -29,7 +29,7 @@ const services = [
     title: "Débouchage",
     description: "Débouchage de canalisations, WC, éviers et douches. Intervention rapide avec matériel professionnel.",
     keywords: "débouchage, canalisation, déboucher WC",
-    image: "/debouchage.webp",
+    image: "/debouchage.jpg",
   },
 ];
 
